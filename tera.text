@@ -1,2 +1,11 @@
-tera
-tera
+# 1. 値の定義
+upper_base = 10  # 上辺
+lower_base = 20  # 下辺
+height = 5       # 高さ
+
+# 2. 公式に従って計算
+# 台形の面積 = (上辺 + 下辺) * 高さ / 2
+area = (upper_base + lower_base) * height / 2
+
+# 3. 結果の表示
+print(f"台形の面積は {area} cm² です。")
